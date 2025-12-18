@@ -17,7 +17,9 @@ toggleBtn.addEventListener("click", () => {
     if (aboutText.style.display === "none") {
         aboutText.style.display = "block";
         toggleBtn.textContent = "Hide Bio";
-    } else {
+        
+    } 
+    else {
         aboutText.style.display = "none";
         toggleBtn.textContent = "Show Bio";
     }
